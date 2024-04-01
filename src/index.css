@@ -16,7 +16,7 @@ body {
 
 #content {
   max-width: 60rem;
-  margin: 2rem auto;
+  margin: 8rem auto;
   padding: 2rem;
   background: radial-gradient(#0b201d, #021619);
   border-radius: 16px;
@@ -220,4 +220,47 @@ header p {
   100% {
     opacity: 0.5;
   }
+}
+
+#masthead {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  overflow: auto;
+  top: 0;
+  background: linear-gradient(#4df8df, #4df0f8);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-brand {
+  margin: 0 0 0 16%;
+  width: 250px;
+  height: 90px;
+  font-family: 'IM Fell Great Primer SC';
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #1a1f1d;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar {
+  margin-right: 15%;
+}
+
+nav {
+  float: right;
+  margin-top: 40px;
+  color: #1a1f1d;
+}
+
+nav a {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'IM Fell Great Primer SC';
+  line-height: 20px;
+  color: #1a1f1d;
+  text-decoration: none;
 }
